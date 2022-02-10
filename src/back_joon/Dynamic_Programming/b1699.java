@@ -1,4 +1,4 @@
-package back_joon;
+package back_joon.Dynamic_Programming;
 import java.util.*;
 
 public class b1699 {

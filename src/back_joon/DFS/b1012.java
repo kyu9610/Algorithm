@@ -1,4 +1,4 @@
-package back_joon;
+package back_joon.DFS;
 import java.util.*;
 
 public class b1012 {

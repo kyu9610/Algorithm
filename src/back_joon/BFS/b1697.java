@@ -1,4 +1,4 @@
-package back_joon;
+package back_joon.BFS;
 import java.util.*;
 
 public class b1697 {

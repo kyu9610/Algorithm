@@ -1,4 +1,4 @@
-package back_joon;
+package back_joon.Greedy_Algorithm;
 import java.util.*;
 
 public class b11399 {

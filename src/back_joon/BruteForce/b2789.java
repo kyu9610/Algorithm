@@ -1,4 +1,4 @@
-package back_joon;
+package back_joon.BruteForce;
 import java.util.*;
 
 public class b2789 {
