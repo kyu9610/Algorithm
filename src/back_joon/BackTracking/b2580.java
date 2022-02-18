@@ -25,6 +25,7 @@ public class b2580 {
         }
 
         if(row == 9){
+
             StringBuilder sb = new StringBuilder();
             for(int i=0;i<9;i++){
                 for(int j=0;j<9;j++){
@@ -33,7 +34,6 @@ public class b2580 {
                 sb.append('\n');
             }
             System.out.println(sb);
-
             System.exit(0);
         }
 
@@ -44,6 +44,7 @@ public class b2580 {
                     sudoku(row,col+1);
                 }
             }
+
             arr[row][col] = 0;
             return;
         }
@@ -64,10 +65,10 @@ public class b2580 {
             }
         }
 
-        int set_row = (row/3) * 3;
-        int set_col = (col/3) * 3;
+        int set_row = (row / 3) * 3;
+        int set_col = (col / 3) * 3;
 
-        for(int i=set_row; i<set_row + 3; i++){
+        for(int i=set_row;i<set_row+3;i++){
             for(int j=set_col;j<set_col+3;j++){
                 if(arr[i][j] == value){
                     return false;
