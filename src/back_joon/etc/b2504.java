@@ -49,6 +49,10 @@ public class b2504 {
                     stack.pop();
                     mul /= 3;
                     break;
+
+                default:
+                    result = 0;
+                    break;
             }
         }
 
