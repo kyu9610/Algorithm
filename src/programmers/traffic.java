@@ -44,25 +44,6 @@ public class traffic {
             answer = cnt > answer ? cnt : answer;
         }
 
-        for(int i=0;i<lines.length;i++){
-            int cnt = 0;
-            int startSection = endTimes[i];
-            int endSection = startSection + 1000;
-
-            for(int j=0;j<lines.length;j++){
-                // window 안에 포함되어있는 경우
-                if(startTimes[j] >= startSection && startTimes[j] < endSection){
-                    cnt++;
-                }else if(endTimes[j] >= startSection && endTimes[j] < endSection){
-                    cnt++;
-                }else if(startTimes[j] <= startSection && endTimes[j] >= endSection){
-                    cnt++;
-                }
-            }
-
-            answer = cnt > answer ? cnt : answer;
-        }
-
 
         System.out.println(answer);
         return answer;
