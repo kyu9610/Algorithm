@@ -54,6 +54,7 @@ public class b1509 {
                 }
                 if(flag)
                     palindrome[start][end] = true;
+
             }
         }
     }
